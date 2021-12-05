@@ -33,3 +33,35 @@ Todos.js
 - Added a button
 - Click event to deleteTodo function (from App.js)
 - pass id
+
+## 3 New
+
+Created AddForm
+
+- It's a class component
+- With a form and a state
+- render a form
+  - onChange - Update state
+  - onSubmit - e.preventDefault() and log
+
+App.js
+
+- import AddForm
+- new function addTodo
+- pass this function as props (addTodo) to AddForm while render.
+
+AddForm.js
+
+- on handleSubmit pass the state to props (addTodo)
+- clear the state
+- update input value to state
+  - so it clears the state after submit
+
+App.js
+
+- random id
+- create new todos
+  - add to old one
+- update the state
+
+END!
